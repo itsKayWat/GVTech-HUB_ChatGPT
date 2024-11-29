@@ -1,0 +1,35 @@
+gvtech-hub_chatgpt/
+├── .github/
+│   └── workflows/
+│       └── python-app.yml
+├── src/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── ui/
+│   │   ├── __init__.py
+│   │   ├── main_window.py
+│   │   ├── settings_dialog.py
+│   │   └── styles.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── gpt_processor.py
+│   │   └── api_handler.py
+│   └── utils/
+│       ├── __init__.py
+│       └── config.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_processor.py
+│   └── test_api.py
+├── docs/
+│   ├── user_guide.md
+│   ├── api_reference.md
+│   └── images/
+│       └── screenshots/
+├── requirements.py
+├── requirements.txt
+├── README.md
+├── README.html
+├── README.txt
+├── LICENSE
+└── .gitignore
